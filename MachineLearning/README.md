@@ -1,4 +1,4 @@
-# Basic Machine Learning Concepts
+# Machine Learning Concepts
 
 This repository contains implementations and explanations of fundamental machine learning concepts. The goal is to provide clear and concise examples to help understand the basics of machine learning algorithms and techniques.
 
