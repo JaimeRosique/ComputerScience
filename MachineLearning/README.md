@@ -15,7 +15,7 @@ This repository contains implementations and explanations of fundamental machine
 
 Gradient Descent is an optimization algorithm used to minimize the cost function in machine learning models. It iteratively adjusts the parameters of the model to find the minimum value of the cost function.
 
-- **File**: `gradient_descent.py`
+- **File**: `gradient_descent.ipynb`
 - **Description**: Implementation of gradient descent algorithm for linear regression.
 - **Key Concepts**:
   - Learning Rate
