@@ -10,6 +10,7 @@ This repository contains implementations and explanations of fundamental machine
    - [Linear Discriminant Analysis (LDA)](#linear-discriminant-analysis-lda)
 4. [Linear Generative Models](#linear-generative-models)
    - [Linear Discriminant Analysus (LDA)](#linear-discriminant-analysis-lda)
+   - [Gaussian Naive Bayes (GNB)](#gaussian-naive-bayes-gnb)
    - [Quadratic Discriminant Analysis (QDA)](#quadratic-discriminant-analysus-qda)
 6. [Additional Resources](#additional-resources)
 7. [Contributing](#contributing)
