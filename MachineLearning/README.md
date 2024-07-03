@@ -8,8 +8,11 @@ This repository contains implementations and explanations of fundamental machine
 2. [Dimensionality Reduction](#dimensionality-reduction)
    - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
    - [Linear Discriminant Analysis (LDA)](#linear-discriminant-analysis-lda)
-3. [Additional Resources](#additional-resources)
-4. [Contributing](#contributing)
+4. [Linear Generative Models](#linear-generative-models)
+   - [Linear Discriminant Analysus (LDA)](#linear-discriminant-analysis-lda)
+   - [Quadratic Discriminant Analysis (QDA)](#quadratic-discriminant-analysus-qda)
+6. [Additional Resources](#additional-resources)
+7. [Contributing](#contributing)
 
 ## Gradient Descent
 
@@ -47,7 +50,45 @@ LDA is a supervised dimensionality reduction technique that finds the linear com
   - Scatter Matrices
   - Fisher's Criterion
   - Class Separability
+ 
+## Linear Generative Models 
 
+Linear generative models assume that data is generated from a linear combination of variables. These models are useful for classification and dimensionality reduction tasks. The two main models discussed in this repository are Linear Discriminant Analysis (LDA), Gaussian Naive Bayes (GNB) and Quadratic Discriminant Analysis (QDA).
+
+### Linear Discriminant Analysis (LDA)
+
+LDA is a supervised dimensionality reduction technique that finds the linear combinations of features that best separate two or more classes of data.
+
+- **File**: `lgm.ipynb`
+- **Description**: Implementation of Linear Discriminant Analysis.
+- **Key Concepts**:
+  - Scatter Matrices
+  - Fisher's Criterion
+  - Class Separability
+
+### Gaussian Naive Bayes (GNB)
+
+Gaussian Naive Bayes is a generative learning algorithm that assumes the features are normally distributed. It is called "naive" because it assumes that all features are independent given the class.
+
+- **File**: `gnb.py`
+- **Description**: Implementation of Gaussian Naive Bayes.
+- **Key Concepts**:
+  - Bayes' Theorem
+  - Gaussian Distribution
+  - Feature Independence
+
+### Quadratic Discriminant Analysis (QDA)
+
+QDA is a generative model that assumes each class has a Gaussian distribution with its own covariance matrix. Unlike Linear Discriminant Analysis (LDA), which assumes a common covariance matrix for all classes, QDA allows for different covariance matrices for each class, resulting in a quadratic decision boundary.
+
+- **File**: `qda.py`
+- **Description**: Implementation of Quadratic Discriminant Analysis.
+- **Key Concepts**:
+  - Gaussian Distribution
+  - Covariance Matrix
+  - Bayes' Theorem
+  - Quadratic Decision Boundary
+    
 ## Additional Resources
 
 For more information on these topics, you can refer to the following resources:
