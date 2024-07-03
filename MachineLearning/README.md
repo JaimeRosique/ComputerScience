@@ -30,7 +30,7 @@ Dimensionality reduction is a technique used to reduce the number of features in
 
 PCA is a linear technique for reducing the dimensionality of a dataset by transforming the data to a new set of variables that are uncorrelated and ordered by the amount of variance they capture from the original dataset.
 
-- **File**: `pca.py`
+- **File**: `pca.ipynb`
 - **Description**: Implementation of Principal Component Analysis.
 - **Key Concepts**:
   - Eigenvalues and Eigenvectors
