@@ -41,7 +41,7 @@ PCA is a linear technique for reducing the dimensionality of a dataset by transf
 
 LDA is a supervised dimensionality reduction technique that finds the linear combinations of features that best separate two or more classes of data.
 
-- **File**: `lda.py`
+- **File**: `lgm.ipynb`
 - **Description**: Implementation of Linear Discriminant Analysis.
 - **Key Concepts**:
   - Scatter Matrices
