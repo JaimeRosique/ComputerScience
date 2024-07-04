@@ -3,7 +3,7 @@
 ## Introduction 
 
 ### Exploratory Data Analysis (EDA) 
-Exploratory Data Analysis (EDA) is a method of analyzing datasets to understand their main characteristics, beyond the formal modeling and thereby contrasts traditional hypothesis testing. 
+**Exploratory Data Analysis (EDA)** is a method of analyzing datasets to understand their main characteristics, beyond the formal modeling and thereby contrasts traditional hypothesis testing. 
 It involves summarizing data features, detecting patterns, and uncovering relationships through visual and 
 statistical techniques. 
 
