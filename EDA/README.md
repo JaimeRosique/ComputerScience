@@ -22,8 +22,32 @@ statistical techniques.
 
 ### Step 1: Import Python Libraries
 
-Import libraries required for the analysis
+Import libraries required for the analysis such as:
+
+- **Pandas:** For data manipulation and analysis
+  ```python
+  import panda as pd
+- **NumPy:** For numerical operations
+  ```python
+  import numpy as np
+- **Matplotlib:** For basic plotting
+   ```python
+  import matplotlib.pyplot as plt
+- **Seaborn:** For statistical data visualization
+   ```python
+  import seaborn as sns
+- **SciPy:** For statistical and scientific computations
+   ```python
+  import scipy
+- **Plotly:** For interactive visualizations (optional)
+   ```python
+  import plotly.express as px
 
 ```python
-def hello_world():
-    print("Hello, world!")
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import scipy
+import plotly.express as px
+
