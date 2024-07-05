@@ -59,7 +59,7 @@ Import libraries required for the analysis such as:
 
 In order to load a dataset, 'pandas' is an excellent choice due to its optimization and poweful data manipulation capabilities. Offering simple and intuitive functions for reading various data formats, such as CSV, Excel and SQL. This versatility, combined whith its user-friendly interface, makes 'pandas' a preferred tool for data analysis tasks.
 
-Hence most of the data are available in tabular format of CSV files, to convert this data type into a pandas DataFrame it is used **read_csv()**, where 'csv' can be changed to the data type needed.
+Since most of the data are available in tabular format of CSV files, converting this data  into a pandas DataFrame it straightforward using the **read_csv()**. The 'csv' can be replaced whith other data formats as needed.
 
 ```python
 # For a CSV file
@@ -73,3 +73,5 @@ from sqlalchemy import create_engine
 engine = create_engine('sqlite:///path/to/your/database.db')
 df = pd.read_sql('SELECT * FROM your_table', engine)
 ```
+For more information on using pandas, refer to its official documentation:
+[Read more about pandas](https://pandas.pydata.org/docs/)
