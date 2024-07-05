@@ -22,6 +22,8 @@ statistical techniques.
 
 ### Step 1: Import Python Libraries
 
+Import libraries required for the analysis
+
 ```python
 def hello_world():
     print("Hello, world!")
