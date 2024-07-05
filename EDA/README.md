@@ -44,12 +44,32 @@ Import libraries required for the analysis such as:
   import plotly.express as px
 
 ```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import scipy
-import plotly.express as px
-# to ignore warnings
-import warnings
-warnings.filterwarnings('ignore')
+  import pandas as pd
+  import numpy as np
+  import matplotlib.pyplot as plt
+  import seaborn as sns
+  import scipy
+  import plotly.express as px
+  # to ignore warnings
+  import warnings
+  warnings.filterwarnings('ignore')
+```
+
+### Step 2: Load Dataset
+
+In order to load a dataset, 'pandas' is an excellent choice due to its optimization and poweful data manipulation capabilities. Offering simple and intuitive functions for reading various data formats, such as CSV, Excel and SQL. This versatility, combined whith its user-friendly interface, makes 'pandas' a preferred tool for data analysis tasks.
+
+Hence most of the data are available in tabular format of CSV files, to convert this data type into a pandas DataFrame it is used **read_csv()**, where 'csv' can be changed to the data type needed.
+
+```python
+# For a CSV file
+df = pd.read_csv('path/to/your/dataset.csv')
+
+# For an Excel file
+df = pd.read_excel('path/to/your/dataset.xlsx')
+
+# For a SQL database
+from sqlalchemy import create_engine
+engine = create_engine('sqlite:///path/to/your/database.db')
+df = pd.read_sql('SELECT * FROM your_table', engine)
+```
