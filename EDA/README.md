@@ -63,18 +63,34 @@ Since most of the data are available in tabular format of CSV files, converting 
 
 ```python
 # For a CSV file
-df = pd.read_csv('path/to/your/dataset.csv')
+data = pd.read_csv('path/to/your/dataset.csv')
 
 # For an Excel file
-df = pd.read_excel('path/to/your/dataset.xlsx')
+data = pd.read_excel('path/to/your/dataset.xlsx')
 
 # For a SQL database
 from sqlalchemy import create_engine
 engine = create_engine('sqlite:///path/to/your/database.db')
-df = pd.read_sql('SELECT * FROM your_table', engine)
+data = pd.read_sql('SELECT * FROM your_table', engine)
 ```
 For more information on using pandas, 
 [refer to its official documentation](https://pandas.pydata.org/docs/)
 
 ### Understand the structure of the dataset
 
+The main goal of data understanding is to gain further insight about the data.
+
+- **Getting the dimensions of the dataset (**data.shape**):
+  - Returns a tuple that shows the dimensions of the dataset, where the first element is the number of rows and the second is the number of columns. This gives an overview of how much data is available and the structure of the dataset
+  - ```python
+    data.shape
+    ```  
+- **Getting the first 5 rows of the dataset (**data.head()**):
+```python
+data.head()
+```
+- **Getting the last 5 rows of the dataset (**data.tail()**)
+```python
+data.tail()
+```
+- **Getting a summary of the dataset
