@@ -50,4 +50,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy
 import plotly.express as px
-
+# to ignore warnings
+import warnings
+warnings.filterwarnings('ignore')
