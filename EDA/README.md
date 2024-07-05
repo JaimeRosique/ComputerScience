@@ -20,7 +20,7 @@ statistical techniques.
 - **Feature Extraction:** Process that transforms raw data into a set of meaningfull features that can be used for model building. The goal is to reduce the amount of data by selecting key attributes that represent the underlying structure of the data.
 - **Feature Selection:** Process where a subset of relevant features is chosen from a larger set of available features. The goal is to improve the performnace of a model by reducing overfitting, improving accuracy, and decreasing training time.
 
-### Step 1: Import Python Libraries
+## Step 1: Import Python Libraries
 
 Import libraries required for the analysis such as:
 
@@ -55,7 +55,7 @@ Import libraries required for the analysis such as:
   warnings.filterwarnings('ignore')
 ```
 
-### Step 2: Load Dataset
+## Step 2: Load Dataset
 
 In order to load a dataset, 'pandas' is an excellent choice due to its optimization and poweful data manipulation capabilities. Offering simple and intuitive functions for reading various data formats, such as CSV, Excel and SQL. This versatility, combined whith its user-friendly interface, makes 'pandas' a preferred tool for data analysis tasks.
 
@@ -75,3 +75,6 @@ df = pd.read_sql('SELECT * FROM your_table', engine)
 ```
 For more information on using pandas, 
 [refer to its official documentation](https://pandas.pydata.org/docs/)
+
+### Understand the structure of the dataset
+
