@@ -80,17 +80,17 @@ For more information on using pandas,
 
 The main goal of data understanding is to gain further insight about the data.
 
-- **Getting the dimensions of the dataset (**data.shape**):
+- Getting the dimensions of the dataset (**data.shape**):
   - Returns a tuple that shows the dimensions of the dataset, where the first element is the number of rows and the second is the number of columns. This gives an overview of how much data is available and the structure of the dataset
   - ```python
     data.shape
     ```  
-- **Getting the first 5 rows of the dataset (**data.head()**):
+- Getting the first 5 rows of the dataset (**data.head()**):
 ```python
 data.head()
 ```
-- **Getting the last 5 rows of the dataset (**data.tail()**)
+- Getting the last 5 rows of the dataset (**data.tail()**):
 ```python
 data.tail()
 ```
-- **Getting a summary of the dataset
+- Getting a summary of the dataset (
