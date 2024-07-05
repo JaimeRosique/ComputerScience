@@ -21,3 +21,7 @@ statistical techniques.
 - **Feature Selection:** Process where a subset of relevant features is chosen from a larger set of available features. The goal is to improve the performnace of a model by reducing overfitting, improving accuracy, and decreasing training time.
 
 ### Step 1: Import Python Libraries
+
+```python
+def hello_world():
+    print("Hello, world!")
