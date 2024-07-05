@@ -73,5 +73,4 @@ from sqlalchemy import create_engine
 engine = create_engine('sqlite:///path/to/your/database.db')
 df = pd.read_sql('SELECT * FROM your_table', engine)
 ```
-For more information on using pandas, refer to its official documentation:
-[Read more about pandas](https://pandas.pydata.org/docs/)
+For more information on using pandas, [refer to its official documentation](https://pandas.pydata.org/docs/)
