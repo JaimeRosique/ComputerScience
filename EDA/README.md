@@ -93,4 +93,8 @@ data.head()
 ```python
 data.tail()
 ```
-- Getting a summary of the dataset (
+- Getting a summary of the dataset (**data.info()**):
+  -  Provides a concise summary of the dataset 'data', inluding the number of non-null values in each column, the data types of each column, and the memory usage. This helps in understanding the completeness of the dataset and the types of data.
+```python
+data.info()
+```
