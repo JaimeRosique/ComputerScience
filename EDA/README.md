@@ -89,8 +89,6 @@ The main goal of data understanding is to gain further insight about the data.
 ```python
 data.head()
 ```
-![image](https://github.com/JaimeRosique/ComputerScience/assets/118359274/7b725297-62ff-4b25-8dee-54c551c7656d)
-
 - Getting the last 5 rows of the dataset (**data.tail()**):
 ```python
 data.tail()
