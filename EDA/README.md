@@ -113,3 +113,16 @@ data.nunique()
 #To calculate the percentage of missing values
 (data.isnull().sum()/(len(data)))*100
 ```  
+## Step 3: Feature Engeneering
+Process of using domain knowledge to create new features from raw data that can enhance the performance of machine learning models, creating meaningful data from raw data.
+
+### Data reduction
+Eliminate columns or rows:
+```python
+#Remove a colum from data
+data = data.drop(['column_name'], axis = 1)
+#axis = 1: meanes columns
+#axis = 0: means rows
+```
+
+### Creating new features
