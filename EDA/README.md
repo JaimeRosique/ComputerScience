@@ -98,3 +98,18 @@ data.tail()
 ```python
 data.info()
 ```
+- Getting a summary statistics (**data.describe()**):
+  - Generates descriptive statistics that summarize the central tendency, dispersion and shape of the datasets distribution for numerical columns. Including statistics such as count, mean, standard deviation, minimum, maximum and quartile values.
+```python
+data.describe()
+```
+- Getting the numbes of unique values in each column (**data.unique()**):
+```python
+data.nunique()
+```
+- Getting the number of null values in each column (**data.isnull().sum()**):
+```python
+data.nunique()
+#To calculate the percentage of missing values
+(data.isnull().sum()/(len(data)))*100
+```  
