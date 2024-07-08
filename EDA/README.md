@@ -126,3 +126,19 @@ data = data.drop(['column_name'], axis = 1)
 ```
 
 ### Creating new features
+Combining or transforming existing data into new variables that have greater predictive power.
+```python
+data['new_variable'] = "new_data"
+#example
+data = {
+  'Height_cm': [150,160,170],
+  'Weight_cm': [50, 60, 70]
+}
+data = pd.DataFrame(data)
+
+data['Height_m'] = data['Height_cm'] / 100
+data['BMI'] = data['Weight_kg'] / data['Height_m'] ** 2)
+data['Name'] = data.DNI.str.split().str.get(0)
+data[['Name', 'BMI', 'Height_m']]
+```
+### Selecting Features
