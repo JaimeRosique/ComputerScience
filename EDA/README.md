@@ -144,3 +144,25 @@ data[['Name', 'BMI', 'Height_m']]
 ### Selecting Features
 Choosing the most relevant features for model building to improve accuracy and reduce complexity.
 Selecting the right features is a crucial step, here are some common techniques to identify important features:
+
+#### Correlation matrix
+Is a table showing correlation coefficients between variables. Each cell in the table shows the correlation between two variables. The value ranges from 0 to 1, showing the interdependency in relations asociated or between each pair of variables and every at the same time.
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Sample DataFrame
+data = {'A': [1, 2, 3], 'B': [2, 4, 5], 'C': [5, 6, 7]}
+df = pd.DataFrame(data)
+
+# Compute correlation matrix
+corr_matrix = df.corr()
+
+# Visualize correlation matrix
+sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
+plt.show()
+```
+![image](https://github.com/JaimeRosique/ComputerScience/assets/118359274/dafb1639-a8a9-4b85-bdb6-693f8db44c23)
+
+#### Feature Importance 
