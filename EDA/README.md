@@ -142,3 +142,5 @@ data['Name'] = data.DNI.str.split().str.get(0)
 data[['Name', 'BMI', 'Height_m']]
 ```
 ### Selecting Features
+Choosing the most relevant features for model building to improve accuracy and reduce complexity.
+Selecting the right features is a crucial step, here are some common techniques to identify important features:
