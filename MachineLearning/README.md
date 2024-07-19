@@ -98,14 +98,3 @@ For more information on these topics, you can refer to the following resources:
 - [Deep Learning Book by Ian Goodfellow](https://www.deeplearningbook.org/)
 - [Coursera Machine Learning Course by Andrew Ng](https://www.coursera.org/learn/machine-learning)
 
-## Contributing
-
-Contributions are welcome! If you have any improvements or additional concepts you'd like to add, please submit a pull request.
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a new Pull Request.
-
-
