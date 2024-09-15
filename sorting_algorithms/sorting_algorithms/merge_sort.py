@@ -41,5 +41,3 @@ def merge(left: list[int], right: list[int]) -> list[int]:
     merged.extend(right[j:])
     
     return merged
-    
-print(merge_sort([3,4,5,2,1,6]))

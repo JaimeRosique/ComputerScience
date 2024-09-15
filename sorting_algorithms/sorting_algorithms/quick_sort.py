@@ -1,10 +1,16 @@
-def quick_sort(array:list[int], low:int, high:int):
-    """_summary_
+def quick_sort(array:list[int], low:int, high:int) -> list[int]:
+    """
+    Sorts a list of number in ascending order using the algorithm quick sort.
+    
+    Quick sort picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array,
+    having numbers less than pivot on the left and the greater numbers on the right. 
 
     Args:
-        array (list[int]): _description_
-        low (int): _description_
-        high (int): _description_
+        array (list[int]): Unsorted list of intgers to be sorted
+        low (int): The starting index of the portion of list to be sorted
+        high (int): The ending index of the list to be sorted. 
+    Returns:
+        int: The sorted list of integers in ascending order.
     """    
     if (low < high):
         pivot: int = makePivot(array, low, high)
