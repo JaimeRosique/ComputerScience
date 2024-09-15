@@ -10,7 +10,7 @@ def quick_sort(array:list[int], low:int, high:int) -> list[int]:
         low (int): The starting index of the portion of list to be sorted
         high (int): The ending index of the list to be sorted. 
     Returns:
-        int: The sorted list of integers in ascending order.
+        list[int]: The sorted list of integers in ascending order.
     """    
     if (low < high):
         pivot: int = makePivot(array, low, high)
