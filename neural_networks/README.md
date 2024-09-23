@@ -30,6 +30,7 @@ This project introduces the basic building blocks of a feedforward neural networ
 - Build a fully connected neural network.
 - Train the model using SGD optimizer.
 - Measure performance on test data.
+  
 **2. Convolutional Neural Network (CNN) on CIFAR-10**
 Explore the power of convolutional layers with CIFAR-10, a more complex dataset. This project covers:
 
