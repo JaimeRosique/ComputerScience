@@ -38,12 +38,14 @@ Explore the power of convolutional layers with CIFAR-10, a more complex dataset.
 - Building a CNN architecture with Conv2D and MaxPooling layers.
 - Training the model using Adam optimizer.
 - Visualizing training progress with TensorBoard.
+  
 **3. Deep CNN on FashionMNIST**
 Go deeper into CNNs by using more convolutional layers to achieve higher accuracy. You'll practice:
 
 - Understanding overfitting and how to combat it with techniques like dropout.
 - Implementing deeper architectures.
 - Tracking training vs. validation loss.
+  
 **4. Custom Dataset and Model Training (Coming Soon)**
 In this project, you’ll learn how to:
 
